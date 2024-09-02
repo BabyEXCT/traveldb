@@ -3,11 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   experimental: {
-    appDir: true,
+    appDir: true, // Disable this if not necessary
   },
-  output: 'standalone',
   images: {
-    domains: ['traveldb-git-main-babyexcts-projects.vercel.app'], // Add your domain here for Next.js Image component support
+    domains: ['traveldb-git-main-babyexcts-projects.vercel.app'],
   },
   eslint: {
     ignoreDuringBuilds: true,
